@@ -2,159 +2,159 @@ server:
   port: 3000
 application:
   domain: "msbpentest.pre"
-  name: "MSB Pre Pentest 2017"
+  name: "MSB OWASP Test"
   logo: "JuiceShop_Logo.png"
   favicon: "favicon_v2.ico"
-  numberOfRandomFakeUsers: 0
+  numberOfRandomFakeUsers: 10
   showChallengeSolvedNotifications: true
   showCtfFlagsInNotifications: false
-  showGitHubRibbon: true
+  showGitHubRibbon: false
   showChallengeHints: true
-  theme: "slate" # Options: cerulean  cosmo  cyborg  darkly  flatly lumen  paper  readable  sandstone  simplex  slate  spacelab  superhero  united  yeti
+  theme: "lumen" # Options: cerulean  cosmo  cyborg  darkly  flatly lumen  paper  readable  sandstone  simplex  slate  spacelab  superhero  united  yeti
   twitterUrl: "https://twitter.com/MSB"
   facebookUrl: "https://www.facebook.com/MSB"
   recyclePage:
     topProductImage: "fruit_press.jpg"
     bottomProductImage: "apple_pressings.jpg"
 products:
-  - name: "MSB"
+  - name: "MSB1"
     price: 1.99
-    description: "Cong dong joy"
+    description: "Cong dong joy 1"
     image: "apple_juice.jpg"
     reviews:
       - text: 'I love MSB'
-        author: 'admin' # Options: admin, jim, bender, ciso, support
-  - name: "MSB"
-    description: "Cong dong joy"
+        author: 'ciso' # Options: admin, jim, bender, ciso, support
+  - name: "MSB2"
+    description: "Cong dong joy2"
     price: 2.99
     image: 'orange_juice.jpg'
-  - name: "MSB"
-    description: "Cong dong joy"
+  - name: "MSB3"
+    description: "Cong dong joy3"
     price: 8.99
     image: 'eggfruit_juice.jpg'
     reviews:
       - text: 'I love MSB'
         author: 'admin'
-  - name: "MSB"
-    description: "Cong dong joy"
+  - name: "MSB4"
+    description: "Cong dong joy4"
     price: 4.99
     image: 'raspberry_juice.jpg'
-  - name: "MSB"
-    description: "Cong dong joy"
+  - name: "MSB5"
+    description: "Cong dong joy5"
     price: 2.99
     image: 'lemon_juice.jpg'
-  - name: "MSB"
-    description: "Cong dong joy"
+  - name: "MSB6"
+    description: "Cong dong joy6"
     price: 1.99
     image: 'banana_juice.jpg'
     reviews:
       - text: 'I love MSB'
         author: 'bender'
-  - name: "MSB"
-    description: "Cong dong joy"
+  - name: "MSB7"
+    description: "Cong dong joy7"
     price: 22.49
     image: 'fan_shirt.jpg'
-  - name: "MSB"
-    description: "Cong dong joy"
+  - name: "MSB8"
+    description: "Cong dong joy8"
     price: 22.49
     image: 'fan_girlie.jpg'
-  - name: "MSB"
-    description: "Cong dong joy"
+  - name: "MSB9"
+    description: "Cong dong joy9"
     price: 0.01
     image: 'owasp_osaft.jpg'
     useForProductTamperingChallenge: true
-  - name: "MSB"
-    description: "Cong dong joy"
+  - name: "MSB10"
+    description: "Cong dong joy10"
     price: 29.99
     image: 'undefined.jpg'
     useForChristmasSpecialChallenge: true
-  - name: "MSB"
-    description: "Cong dong joy"
+  - name: "MSB11"
+    description: "Cong dong joy11"
     price: 999.99
     image: 'sticker.png'
     deletedDate: '2017-04-28'
-  - name: "MSB"
-    description: "Cong dong joy"
+  - name: "MSB12"
+    description: "Cong dong joy12"
     price: 2.99
     image: 'sticker_facelift.png'
-  - name: "MSB"
-    description: "Cong dong joy"
+  - name: "MSB13"
+    description: "Cong dong joy13"
     price: 2.99
     image: 'ctf_sticker.png'
-  - name: "MSB"
-    description: "Cong dong joy"
+  - name: "MSB14"
+    description: "Cong dong joy14"
     price: 21.99
     image: 'fan_mug.jpg'
-  - name: "MSB"
-    description: "Cong dong joy"
+  - name: "MSB15"
+    description: "Cong dong joy15"
     price: 49.99
     image: 'fan_hoodie.jpg'
-  - name: "MSB"
-    description: "Cong dong joy"
+  - name: "MSB16"
+    description: "Cong dong joy16"
     price: 6.99
     image: 'woodruff_syrup.jpg'
-  - name: "MSB"
-    description: "Cong dong joy"
+  - name: "MSB17"
+    description: "Cong dong joy17"
     price: 1.99
     image: 'green_smoothie.jpg'
     reviews:
       - text: 'I love MSB'
         author: 'jim'
-  - name: "MSB"
-    description: "Cong dong joy"
+  - name: "MSB18"
+    description: "Cong dong joy18"
     price: 4.99
     image: 'quince.jpg'
-  - name: "MSB"
-    description: "Cong dong joy"
+  - name: "MSB19"
+    description: "Cong dong joy19"
     price: 0.01
     image: 'owasplogo.png'
-  - name: "MSB"
-    description: "Cong dong joy"
+  - name: "MSB20"
+    description: "Cong dong joy20"
     price: 0.89
     image: 'apple_pressings.jpg'
-  - name: "MSB"
-    description: "Cong dong joy"
+  - name: "MSB21"
+    description: "Cong dong joy21"
     price: 89.99
     image: 'fruit_press.jpg'
-  - name: "MSB"
-    description: "Cong dong joy"
+  - name: "MSB22"
+    description: "Cong dong joy22"
     price: 150
     image: 'white_raffards.jpg'
     reviews:
       - text: 'I love MSB'
         author: 'jim'
-  - name: "MSB"
-    description: "Cong dong joy"
+  - name: "MSB23"
+    description: "Cong dong joy23"
     price: 99.99
     image: '3d_keychain.jpg' # Exif metadata contains "OpenSCAD" as subtle hint...
     fileForRetrieveBlueprintChallenge: 'JuiceShop.stl' # ...to blueprint file type
-  - name: "MSB"
-    description: "Cong dong joy"
+  - name: "MSB24"
+    description: "Cong dong joy24"
     price: 278.74
     image: 'artwork.jpg'
-  - name: "MSB"
-    description: "Cong dong joy"
+  - name: "MSB25"
+    description: "Cong dong joy25"
     price: 0.03
     image: 'waspy.png'
     deletedDate: '2017-07-01'
-  - name: "MSB"
-    description: "Cong dong joy"
+  - name: "MSB26"
+    description: "Cong dong joy26"
     price: 1999
     image: 'melon_bike.jpeg'
-  - name: "MSB"
-    description: "Cong dong joy"
+  - name: "MSB27"
+    description: "Cong dong joy27"
     price: 3.99
     image: 'strawberry_juice.jpeg'
-  - name: "MSB"
-    description: "Cong dong joy"
+  - name: "MSB28"
+    description: "Cong dong joy28"
     price: 2.99
     image: 'carrot_juice.jpeg'
-  - name: "MSB"
-    description: "Cong dong joy"
+  - name: "MSB29"
+    description: "Cong dong joy29"
     price: 20
     image: 'jawa_script.jpg'
-  - name: "MSB"
-    description: "Cong dong joy"
+  - name: "MSB30"
+    description: "Cong dong joy30"
     price: 19.10
     image: 'stickersheet_se.png'
 
