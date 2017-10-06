@@ -11,5 +11,4 @@ apt-get install -y docker-engine
 a2enmod proxy_http
 systemctl restart apache2
 
-export NODE_ENV=ctf
-docker run --restart=always -d -p 3000:3000 bonzecurve/juice-shop
+docker run --restart=always -d -p 3000:3000 -e "NODE_ENV=ctf" bonzecurve/juice-shop
